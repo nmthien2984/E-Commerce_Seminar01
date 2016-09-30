@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>ECommerceSeminar01</title>
+    <title>JohhnyDuck's trivial blog</title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -9,6 +9,14 @@
   </head>
 
   <body>
-    <%= yield %>
+    <div class='container'>
+      <div class='row'>
+        <div class='col-md-2'></div>
+        <div class='col-md-8'>
+          <%= yield %>
+        </div>
+        <div class='col-md-2'></div>
+      </div>    
+    </div>
   </body>
 </html>
