@@ -1,8 +1,10 @@
-# Homework 1 - *Name of App*
+# Homework 1 - JohnnyDuck's trivial blog
 
-**Name of your app** Đây là trang web cho phép người dùng viết blog. Thời gian nộp: 0h ngày 3/10
+**JohnnyDuck's trivial blog** Đây là trang web cho phép người dùng viết blog. Thời gian nộp: 0h ngày 3/10
 
-Danh sách sinh viên: **Your Name Here**
+Danh sách sinh viên:
+1312458 - Ngô Đình Duy Quang
+1312551 - Nguyễn Minh Thiện
 
 URL: **Insert your Heroku URL here**
 
@@ -10,15 +12,15 @@ URL: **Insert your Heroku URL here**
 
 Danh sách chức năng **bắt buộc**:
 
-* [ ] Người dùng có thể tạo bài blog mới.
-* [ ] Người dùng có thể cập nhật lại nội dung bài blog.
+* [x] Người dùng có thể tạo bài blog mới.
+* [x] Người dùng có thể cập nhật lại nội dung bài blog.
 * [ ] Người dùng có thể thêm comment vào các bài đăng.
 * [ ] Sử dụng bootstrap để tạo layout cho trang web. Sử dụng [Bootstrap](https://rubygems.org/gems/bootstrap/versions/4.0.0.alpha3).
 * [ ] Bài đăng sẽ được format bằng markdown. Sử dụng [RedCarpet gem](https://github.com/vmg/redcarpet).
 
 Danh sách chức năng **phụ**:
 
-* [ ] Người dùng có thể xóa các bài đã đăng và có hiện câu hỏi yêu cầu xác nhận lại trước khi xóa.
+* [x] Người dùng có thể xóa các bài đã đăng và có hiện câu hỏi yêu cầu xác nhận lại trước khi xóa.
 * [ ] Người dùng có thể tìm kiếm các bài đăng có tiêu đề chứa từ khóa người dùng đã nhập.
 * [ ] Người dùng được phép đăng nhập, đăng xuất
 * [ ] Bảo mật mật khẩu tài khoản người dùng khi đăng ký. Sủ dụng [Bcrypt](https://github.com/codahale/bcrypt-ruby).
