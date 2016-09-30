@@ -2,12 +2,6 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-h1 {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-align: center;
-}
-
 h2 {
     margin-bottom: 3px;
 }
@@ -26,6 +20,17 @@ h2 {
 .post-time {
     font-style: italic;
     color: darkgrey; 
+}
+
+.my-form {
+    background: white !important;
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.post-single-title {
+    margin-bottom: 20px;
 }
 
 
