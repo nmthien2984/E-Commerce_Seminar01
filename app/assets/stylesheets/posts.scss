@@ -13,11 +13,7 @@ h2 {
     margin-bottom: 5px;
 }
 
-.post::last-child {
-    margin-bottom: 10px;
-}
-
-.post-time {
+.time-ago {
     font-style: italic;
     color: darkgrey; 
 }
@@ -26,7 +22,7 @@ h2 {
     background: white !important;
     padding: 10px 10px 10px 10px;
     border-radius: 5px;
-    margin-bottom: 10px;
+    margin-bottom: 10px !important;
 }
 
 .post-single-title {
