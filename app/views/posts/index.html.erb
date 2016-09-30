@@ -1,8 +1,9 @@
+
 <% @posts.each do |post| %>
     <div class='post'>
         <h2><%= link_to post.title, post %></h2>
         <p class='time-ago'><%= time_ago_in_words post.created_at %> ago</p>
-        <p><%= truncate(post.content, length:100) %></p>
+        <p><%= markdown(truncate(post.content, length:100)) %></p>
     </div>
 <% end %>
 

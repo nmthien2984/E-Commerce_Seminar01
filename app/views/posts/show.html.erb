@@ -1,6 +1,6 @@
 <div class='post'>
   <h2 class='post-single-title text-primary'><%= @post.title %></h2>
-  <p><%= @post.content %></p>
+  <p><%= markdown(@post.content) %></p>
   <p>
     <%= link_to 'Edit', edit_post_path(@post), :class => 'text-warning' %>
     <%= link_to 'Delete', @post, :method => :delete, data: { :confirm => 'Are you sure?' }, :class => 'text-danger' %>
