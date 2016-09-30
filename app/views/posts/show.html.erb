@@ -1,9 +1,30 @@
 <div class='post'>
-  <h2 class='post-single-title'><%= @post.title %></h2>
+  <h2 class='post-single-title text-primary'><%= @post.title %></h2>
   <p><%= @post.content %></p>
+  <p>
+    <%= link_to 'Edit', edit_post_path(@post), :class => 'text-warning' %>
+    <%= link_to 'Delete', @post, :method => :delete, data: { :confirm => 'Are you sure?' }, :class => 'text-danger' %>
+  </p>
 </div>
 
+<h3>Comments</h3>
+<% @post.comments.each do |comment| %>
+  <div class= 'post'>
+    <p><%= comment.content %></p>
+    <p class='time-ago'><%= time_ago_in_words comment.created_at %> ago</p>
+  </div>
+<% end %>
+
+<%= form_for([@post, @post.comments.build], :class => 'form-horizontal')  do |f| %>
+  <div class="field form-group">
+    <%= f.label :content, "Write new comment:", class: 'control-label' %>
+    <%= f.text_area :content, class: 'form-control' %>
+  </div>    
+  <%= f.submit "Submit", class: 'btn btn-success margin-bottom-10' %>   
+<% end %>
+
 <%= link_to 'Back', root_url, :class => 'btn btn-primary' %>
-<%= link_to 'Edit', edit_post_path(@post), :class => 'btn btn-warning' %>
-<%= link_to 'Delete', @post, :method => :delete, data: { :confirm => 'Are you sure?' }, :class => 'btn btn-danger' %>
+
+
+
 
