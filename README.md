@@ -18,7 +18,7 @@ Danh sách chức năng **bắt buộc**:
 * [x] Người dùng có thể cập nhật lại nội dung bài blog.
 * [x] Người dùng có thể thêm comment vào các bài đăng.
 * [x] Sử dụng bootstrap để tạo layout cho trang web. Sử dụng [Bootstrap](https://rubygems.org/gems/bootstrap/versions/4.0.0.alpha3).
-* [ ] Bài đăng sẽ được format bằng markdown. Sử dụng [RedCarpet gem](https://github.com/vmg/redcarpet).
+* [x] Bài đăng sẽ được format bằng markdown. Sử dụng [RedCarpet gem](https://github.com/vmg/redcarpet).
 
 Danh sách chức năng **phụ**:
 
@@ -51,7 +51,7 @@ Các chuẩn đầu ra cần thực hiện:
 
 Here's a walkthrough of implemented user stories:
 
-![Video Walkthrough](relative-path-to-your-gif-file-on-github-or-absolute-path-to-file-on-imgur-or-youtube)
+![Video Walkthrough](https://youtu.be/jK9yCiRFk7A)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
