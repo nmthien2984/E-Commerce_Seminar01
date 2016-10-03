@@ -53,6 +53,8 @@ Here's a walkthrough of implemented user stories:
 
 Video Demo [Video Walkthrough](https://youtu.be/jK9yCiRFk7A)
 
+![](https://github.com/nmthien2984/E-Commerce_Seminar01/blob/master/demo.gif)
+
 GIF created with [LiceCap](https://github.com/nmthien2984/E-Commerce_Seminar01/blob/master/demo.gif).
 
 ## Notes
